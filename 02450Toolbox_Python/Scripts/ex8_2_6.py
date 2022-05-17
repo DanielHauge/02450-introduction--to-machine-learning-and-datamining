@@ -33,11 +33,11 @@ if do_pca_preprocessing:
 
 # Parameters for neural network classifier
 n_hidden_units = 5      # number of hidden units
-n_replicates = 1        # number of networks trained in each k-fold
+n_replicates = 3        # number of networks trained in each k-fold
 max_iter = 10000
 
 # K-fold crossvalidation
-K = 3                   # only three folds to speed up this example
+K = 10                   # only three folds to speed up this example
 CV = model_selection.KFold(K, shuffle=True)
 
 # Setup figure for display of learning curves and error rates in fold
