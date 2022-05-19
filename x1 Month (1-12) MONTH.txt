@@ -1,0 +1,31 @@
+x1 Month (1-12) MONTH
+x2 PM2.5 concentration (μg/m3) PM2.5
+x3 PM10 concentration (μg/m3) PM10
+x4 NO2 concentration (μg/m3) NO2
+x5 SO concentration (μg/m3) CO
+x6 O3 concentration (μg/m3) O3
+x7 Temperature (degree Celsius) TEMP
+x8 Pressure (hPa) PRES
+x9 Dew point temperature (degree Celsius) DEWP
+x10 Precipitation/rainfall (mm) RAIN
+x11 Wind speed (m/s) WSPM
+
+
+MONTH  
+PM10 
+CO
+PRES 
+RAIN 
+WSPM 
+
+D
+
+
+0.67    0.01
+−0.05   −0.64
+0.13    0.72
+0.6     −0.2
+0.41    −0.03
+0.04    0.17
+
+
